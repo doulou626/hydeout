@@ -3,9 +3,9 @@ markdown:        kramdown
 highlighter:      rouge
 
 # Setup
-title:            SystemAdm
-tagline:          '运维日志'
-description:      '这是Anson 的个人运维日常日志'
+title:            SysAdm
+tagline:          'Anson-运维日志'
+description:      'Anson 个人运维日常日志'
 url:              https://anson626.github.io/
 baseurl:          '/hydeout'
                   # the optional subpath of your site, e.g. "/blog"
