@@ -1,9 +1,9 @@
 # Dependencies
-#markdown:         'kramdown'
+markdown:        kramdown
 highlighter:      rouge
 
 # Setup
-title:            '运维日志'
+title:            SystemAdm
 tagline:          '运维日志'
 description:      '这是Anson 的个人运维日常日志'
 url:              https://anson626.github.io/
@@ -14,7 +14,7 @@ baseurl:          '/hydeout'
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
 
-author:           'Anson Yean'
+author:           
   name:           'Anson Yean'
   url:            https://www.facebook.com/yean.hang/
 
