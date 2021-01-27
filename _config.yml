@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            运维日志
+title:            '运维日志'
 tagline:          '运维日志'
 description:      '这是Anson 的个人运维日常日志'
 url:              https://anson626.github.io/
