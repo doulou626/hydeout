@@ -5,9 +5,7 @@ sidebar_link: true
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
+  嗨！这是运维博客专门记录一路学习所做的总结。分享给大家看看。
 </p>
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+
