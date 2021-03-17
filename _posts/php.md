@@ -3,9 +3,9 @@ layout: post
 title: "PHP 使用 shell 脚本安装"
 excerpt: "脚本安装"
 categories:
-  - Php
+  - System Admin
 tags:
-  - php
+  - systemadmin
 last_modified_at: 2021-03-17T12:26:59-05:00
 ---
 
