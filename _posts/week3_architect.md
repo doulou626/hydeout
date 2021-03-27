@@ -1,3 +1,14 @@
+---
+layout: post
+title: "架构师练习题"
+excerpt: "架构师练习题"
+categories:
+  - Exercise
+tags:
+  - exercise
+last_modified_at: 2021-03-27T12:00:00-05:00
+---
+
 ## 架构师练习题
 
 ##  1.ansible 安装以及常用模块使用
