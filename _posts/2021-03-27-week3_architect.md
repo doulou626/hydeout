@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "架构师练习题"
-excerpt: "架构师练习题"
+excerpt: "Week3 - 架构师练习题"
 categories:
   - Exercise
 tags:
