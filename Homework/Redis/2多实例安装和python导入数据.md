@@ -85,8 +85,22 @@ echo "$NUM个key写入到Redis完成"
 
 ### 2.2.4.2.2 python 连接方式
 
+安装python环境
+
+```sh
+yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make
+wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xz
+tar -xvJf Python-3.6.2.tar.xz
+cd Python-3.6.2
+./configure prefix=/usr/local/python3
+make && make install
+ln -s /usr/local/python3/bin/python3 /usr/bin/python
+
+```
+
+
+
 安装 Python的Redis客户端
-Centos 7 通常自带 Python 2.7 ，所以不需要提前安装 Python
 
 我们需要先安装 setuptools 辅助包
 
@@ -97,22 +111,13 @@ wget https://bootstrap.pypa.io/ez_setup.py
 下载完成后执行
 
 ```sh
-python ez_setup.py执行后会安装好相应的 setuptools 辅助包
+python ez_setup.py #执行后会安装好相应的 setuptools 辅助包
 ```
 
 ```sh
 unzip setuptools-33.1.1.zip
 cd setuptools-33.1.1
-python easy_install redis
-```
-
-
-
-测试使用python 安装快很多
-
-```sh
-chmod +x redis_test.py
-time ./redis_test.py
+python easy_install.py redis
 ```
 
 
@@ -129,5 +134,14 @@ for i in range(10000):
 # time.sleep(1)
  data=r.get("k%d" % i)
  print(data)
+```
+
+
+
+测试使用python 安装快很多
+
+```sh
+chmod +x redis_test.py
+time ./redis_test.py
 ```
 
